@@ -1,5 +1,7 @@
 # The role of religion in an individual's happiness in Canada
-The dataset comes from WVS (2020). It presents a subset for one country - Canada
+The dataset comes from WVS (**2020**). It presents a subset for one country - **Canada**. 
+Research Question:
+"How does the importance of religion influence individual happiness in Canada, and how do financial satisfaction, social trust, and demographic factors moderate this relationship?"
 #### 1. Dataset Overview
 * Total Observations: 4,018 respondents
 * Total Variables: 12
@@ -17,19 +19,17 @@ Data Types: All variables are integer-coded categorical variables (no text or fl
 * trust_people (Q57) → General trust (1 = Most people can be trusted, 2 = Need to be careful).
 * trust_family (Q58) → Trust in family (likely ordinal).
 * trust_foreigners (Q63) → Trust in people of another nationality (ordinal).
+
+For our analysis of happiness (Q46), the five most valuable predictors are: financial satisfaction (Q50), religion importance (Q6), trust in people (Q57), living standard compared to parents (Q56), and age (Q262). Financial satisfaction is the strongest predictor, as economic well-being directly influences happiness. Religion importance may enhance happiness by providing purpose and emotional support. Trust in people reflects social capital, which is linked to greater well-being. Living standard compared to parents captures perceived economic mobility, influencing life satisfaction. Lastly, age follows a U-shaped relationship with happiness, often decreasing in mid-life and increasing later. These factors together provide a comprehensive view of happiness determinants.
+
 #### 3. Descriptive statistics
-| Unnamed: 0             |   count |       mean |       std |   min |   25% |   50% |   75% |   max |
+| Unnamed:               |   count |       mean |       std |   min |   25% |   50% |   75% |   max |
 |:-----------------------|--------:|-----------:|----------:|------:|------:|------:|------:|------:|
-| year                   |    4018 | 2020       |  0        |  2020 |  2020 |  2020 |  2020 |  2020 |
 | religion_importance    |    4018 |    2.87506 |  1.08229  |     1 |     2 |     3 |     4 |     4 |
-| happiness              |    4018 |    1.94624 |  0.622055 |     1 |     2 |     2 |     2 |     4 |
-| gender                 |    4018 |    1.48756 |  0.499907 |     1 |     1 |     1 |     2 |     2 |
+| happiness (Y)          |    4018 |    1.94624 |  0.622055 |     1 |     2 |     2 |     2 |     4 |
 | age                    |    4018 |   46.5647  | 16.8775   |    18 |    32 |    45 |    61 |    93 |
-| religion               |    4018 |    1.37058 |  2.16204  |     0 |     0 |     1 |     2 |     9 |
 | financial_satisfaction |    4018 |    6.52364 |  2.21915  |     1 |     5 |     7 |     8 |    10 |
 | living_standard        |    4018 |    1.77352 |  0.862158 |     1 |     1 |     1 |     3 |     3 |
 | trust_people           |    4018 |    1.50498 |  0.500037 |     1 |     1 |     2 |     2 |     2 |
-| trust_family           |    4018 |    1.41961 |  0.617667 |     1 |     1 |     1 |     2 |     4 |
-| trust_foreigners       |    4018 |    2.07392 |  0.601849 |     1 |     2 |     2 |     2 |     4 |
 
 
