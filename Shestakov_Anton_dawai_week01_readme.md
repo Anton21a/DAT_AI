@@ -1,4 +1,5 @@
 # The role of religion in an individual's happiness in Canada
+**GitHub link**: https://github.com/Anton21a/DAT_AI.git
 The dataset comes from WVS (**2020**). It presents a subset for one country - **Canada**. 
 Research Question:
 "How does the importance of religion influence individual happiness in Canada, and how do financial satisfaction, social trust, and demographic factors moderate this relationship?"
